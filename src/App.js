@@ -1,3 +1,4 @@
+import CompanyOverview from './components/CompanyOverview';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 

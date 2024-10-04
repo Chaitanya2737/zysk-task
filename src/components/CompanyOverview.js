@@ -11,11 +11,13 @@ const companies = [
 
 const CompanyOverview = () => {
   return (
-    <div className='absolute z-10 bottom-0 bg-white  p-4 text-center flex flex-col items-center w-full'>
-      <h1 className='text-xl font-bold mb-4'>Join 4,000+ companies already growing</h1>
+    <>
+    <div className='absolute z-10 bottom-0 bg-white mt-10 py-24  h-1/3 p-12 text-center flex flex-col items-center w-full'>
+
+      <h1 className='text-xl  text-gray-500 mb-4 py-6'>Join 4,000+ companies already growing</h1>
       <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-6 gap-2'>
         {companies.map((company) => (
-          <div key={company.id} className='flex justify-center items-center hover:bg-gray-100 transition duration-200 p-4 rounded col-span-1 lg:col-span-1'>
+          <div key={company.id} className='flex justify-center py-2 items-center hover:bg-gray-100 transition duration-200 p-4 rounded col-span-1 lg:col-span-1'>
             <img 
               src={company.logo} 
               alt={`${company.name} logo`} 
@@ -26,6 +28,8 @@ const CompanyOverview = () => {
         ))}
       </div>
     </div>
+
+    </>
   );
 }
 

@@ -69,7 +69,7 @@ const Feature = () => {
               alt={item.title}
             />
             <h2 className="text-primary text-lg mt-2">{item.title}</h2>
-            <p className="text-gray-600">{item.description}</p>
+            <p className="text-gray-600 text-pretty">{item.description}</p>
           </div>
           ))}
         </div>

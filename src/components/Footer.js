@@ -5,7 +5,10 @@ const Footer = () => {
     <footer className=" text-gray-600 py-12">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-4 md:mb-0">
-          <h2 className="text-xl font-bold">BrandName</h2>
+        <div className="text-xl font-bold flex items-center gap-2">
+          <img src="/asset/Content.png" alt="" />
+          <h1>Untitled UI</h1>
+        </div>
           <p className="text-sm">© {new Date().getFullYear()} Your Company. All rights reserved.</p>
         </div>
         <div className="flex space-x-4">

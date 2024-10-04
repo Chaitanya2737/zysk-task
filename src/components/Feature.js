@@ -4,7 +4,7 @@ const Feature = () => {
   const featureItem = [
     {
       id: 1,
-      image: "/asset/Feature/icon.png",
+      image: "/asset/Feature/message-chat-circle.jpg",
       title: "Share team inboxes",
       description:
         "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",

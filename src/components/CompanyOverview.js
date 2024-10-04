@@ -11,7 +11,7 @@ const companies = [
 
 const CompanyOverview = () => {
   return (
-    <div className='relative bg-white mt-10 py-12 text-center w-full'>
+    <div className='relative bg-white mt-10 py-12 text-center w-full md:h-full'>
       <h1 className='text-xl text-gray-500 mb-8'>
         Join 4,000+ companies already growing
       </h1>

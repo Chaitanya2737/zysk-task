@@ -1,9 +1,13 @@
 import Analytics from './components/Analytics';
+import Blog from './components/blog';
 import CompanyOverview from './components/CompanyOverview';
+import Enquiry from './components/Enquiry';
 import Feature from './components/Feature';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import ManagerReview from './components/ManagerReview';
 import Navbar from './components/Navbar';
+import Trial from './components/Trial';
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
   <Feature />
   <ManagerReview />
   <Analytics />
+  <Enquiry />
+  <Blog />
+  <Trial />
+  <Footer />
  </div>
   );
 }

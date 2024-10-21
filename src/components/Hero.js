@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="relative rounded-2xl w-full h-full sm:h-1/2 ">
         <img
           className="w-full  h-full sm:h-1/2 object-cover border-8 rounded-2xl border-primary"
-          src="https://s3-alpha-sig.figma.com/img/081a/4c6e/48bee3c577d90c805ebc6abe73e441d3?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l5SBg5-2xTpSBE-rJCr9ZYRucEK50JvJ55-tAKzZbxX9SnO-b57UJj6KDmzaZisKA4N~4BMUlupTLJqEftQ6BKeIznFmli3DsNyqR2aqQuOzwDrF1rmegRC0M0r9o2USygOsN49gx~1z~5F~ikKoRtv30aEFsv-WCugFebGpdehUeeg5jNRgJxfv6Cu~SZNb68F8FDHyhRWMh8F7DmQ2qIMTdGP8yMSLZdXRcRkGdfuAeQQPx-ayswOcMkz22wq2pmzBY5JbnWU6MP4o9XPJ-WKc5hRPv2RzYUwuHBAcWrt3WPbFpa3d7R1BsUG~7psqZd1iTit-MWHR8pHQjr6ARQ__"
+          src="/asset/48bee3c577d90c805ebc6abe73e441d3.png"
           alt="Analytics visualization showing growth metrics"
         />
         <div className="absolute bottom-0 w-full h-1/2">
